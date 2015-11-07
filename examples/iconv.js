@@ -87,3 +87,4 @@ var server = require('http').createServer(function (req, res) {
 server.listen(0, function () {
   fetch('http://localhost:' + this.address().port + '/iconv.xml');
 });
+ 

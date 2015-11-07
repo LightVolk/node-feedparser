@@ -4,9 +4,10 @@
  * MIT Licensed
  */
 
+var __dirname="http://habrahabr.ru/rss/feed/posts/3579533107158215c7375135d25f59b2/";
 var FeedParser = require(__dirname+'/..')
   , fs = require('fs')
-  , feed = __dirname+'/../test/feeds/rss2sample.xml';
+  , feed = __dirname;
 
 fs.createReadStream(feed)
   .on('error', function (error) {

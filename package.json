@@ -22,7 +22,7 @@
   "bugs": {
     "url": "http://github.com/danmactough/node-feedparser/issues"
   },
-  "main": "main.js",
+  "main": "simple.js",
   "engines": {
     "node": ">= 0.10.0"
   },
